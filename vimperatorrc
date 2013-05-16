@@ -1,0 +1,84 @@
+"3.7 (created: 2013/04/03 18:20:07)
+"js手动加载
+source ~/cfg_vimperator/plugins/_smooziee.js
+source ~/cfg_vimperator/plugins/yetmappings.js
+"source ~/cfg_vimperator/plugins/asdfghjkl.js
+"source ~/cfg_vimperator/plugins/clock.js
+source ~/cfg_vimperator/plugins/google-search.js
+source ~/cfg_vimperator/plugins/history-search-backward.js
+source ~/cfg_vimperator/plugins/longcat.js
+
+"修改前导按键
+let mapleader=','
+
+"设置提示字符
+"set hintchars=abcdefghijklmnopqrstuvwyz
+set hintchars=asdfjkl
+
+"聚焦设置
+set focuscontent
+
+"一般都后台打开相关网页
+noremap f F
+
+
+",a打开附件对话框
+noremap <Leader>a :dialog<Space>addons<Return>
+noremap <Leader>d :dialog downloads<CR>
+noremap <Leader>b :open bentry<CR>
+noremap <Leader>t :tabnew<CR><c-l>
+
+
+",r重启firefox
+noremap <Leader>r :restart<Return>
+"x关闭当前标签
+noremap x :tabclose<CR>
+"J下一个标签
+noremap J :tabnext<CR>
+"K上一个标签
+noremap K :tabprevious<CR>
+noremap <Leader>1 :tabfirst<CR>
+noremap <Leader>0 :tablast<CR>
+
+
+
+"j下移5格 noremap j 5j
+"k上移5格 noremap k 5k
+"由_smooziee.js托管
+
+",x关闭QQ标签
+noremap <Leader>x :tabclose webqq<CR>
+",qq打开webqq
+noremap <Leader>qq :tabopen http://webqq.qq.com/###<CR>
+",g打开github标签页
+noremap <Leader>git :tabopen github.com<CR>
+",m打开gmail
+noremap <leader>m :tabopen mail.google.com<CR>
+
+
+
+
+" 颜色配置
+" colours for the hint characters
+highlight! Hint font-size: 11px; color: black; font-weight: bold; font-family: Helvetica, Arial, sans-serif; border: 1px solid #E3BE23; background-color: #FFEBB6; text-transform: uppercase
+highlight! HintElem background-color: transparent
+highlight! HintActive background-color: transparent
+
+" 滚动条配置
+" set sb = off
+
+" 全屏
+" set fs
+
+" 高亮查找
+set hlsearch
+
+" 关闭高亮
+noremap <Leader><Return> :noh<CR>
+
+" ]代替]]
+" noremap ] ]]
+
+" [代替[[
+" noremap [ [[
+
