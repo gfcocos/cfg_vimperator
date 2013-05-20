@@ -54,7 +54,7 @@ noremap <Leader>qq :tabopen http://webqq.qq.com/###<CR>
 noremap <Leader>git :tabopen github.com<CR>
 ",m打开gmail
 noremap <leader>m :tabopen mail.google.com<CR>
-",m打开gmail
+",m打开google
 noremap <leader>gg :tabopen https://www.google.com.hk/webhp?client=aff-1616dh&newwindow=1&channel=t4<CR>
 
 
