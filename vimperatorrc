@@ -30,7 +30,8 @@ noremap <Leader>t :tabnew<CR><c-l>
 
 
 ",r重启firefox
-noremap <Leader>r :restart<Return>
+noremap <Leader><Leader>r :restart<Return>
+noremap <Leader>r :reload<Return>
 "x关闭当前标签
 noremap x :tabclose<CR>
 "J下一个标签
