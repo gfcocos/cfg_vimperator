@@ -50,7 +50,7 @@ noremap <Leader>0 :tablast<CR>
 ",x关闭QQ标签
 noremap <Leader>x :tabclose webqq<CR>
 ",qq打开webqq
-noremap <Leader>qq :tabopen http://webqq.qq.com/###<CR>
+noremap <Leader>qq :tabopen http://w.qq.com/login.html<CR>
 ",git打开github标签页
 noremap <Leader>git :tabopen github.com<CR>
 ",m打开gmail
